@@ -6,9 +6,9 @@ import Navbar from './Components/Universal/Navbar'
 import Home from './Components/HomePage/Home'
 import Contact from './Components/ContactPage/Contact'
 import Community from './Components/Community/Community';
-
+import Learn from './Components/Learn/Learn';
 function App() {
-    const [count, setCount] = useState(0)
+    
 
     return (
         <>
@@ -16,6 +16,7 @@ function App() {
                 <Navbar />
                 <Routes>
                     <Route path='/' element={<Home />} />
+                    <Route path='/Learn' element={<Learn />} />
                     <Route path='/Contact' element={<Contact />} />
                     <Route path='/Community' element={<Community />} />
                 </Routes>
