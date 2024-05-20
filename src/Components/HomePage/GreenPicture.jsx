@@ -46,7 +46,7 @@ function GreenPicture() {
             <p className="text-center mb-8">Greenpeace Pictures of the Week. This week we’ve seen environmental activism at Adaro’s meeting in Indonesia, anti-oil expansion protests by Greenpeace in Norway, and community support during severe floods in Brazil. For all our photo and video, please visit the Greenpeace Media Library</p>
             <div className="flex flex-col lg:flex-row flex-wrap justify-center">
                 {imageData.map((image, index) => (
-                    <div key={index} className="w-1/4 p-4">
+                    <div key={index} className="w-full mx-4 lg:w-1/4 p-4">
                         <div className="group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
                             <img
                                 loading="lazy"
